@@ -12,6 +12,15 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+<<<<<<< HEAD
+=======
+# Add permissions for deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+>>>>>>> 2e08443 (update to deploy to github pages)
 jobs:
   # Build job
   build:
