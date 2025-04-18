@@ -4,6 +4,9 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	// Replace with your GitHub username and repository name
+	site: 'https://sagreenxyz.github.io',
+	base: '/documentation',
 	integrations: [
 		starlight({
 			title: 'My Docs',
